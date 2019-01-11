@@ -1853,330 +1853,330 @@ else if (!b_u) {
     var langFilepath = getLanguageFilePath(lang);
 
     jsl.push({f:langFilepath, n: 'lang', j:3});
-    jsl.push({f:'sjcl.js', n: 'sjcl_js', j:1});
-    jsl.push({f:'nodedec.js', n: 'nodedec_js', j:1});
-    jsl.push({f:'js/vendor/jquery.js', n: 'jquery', j:1, w:10});
-    jsl.push({f:'js/vendor/jquery-ui.js', n: 'jqueryui_js', j:1, w:10});
-    jsl.push({f:'js/vendor/jquery.mousewheel.js', n: 'jquerymouse_js', j:1});
-    jsl.push({f:'js/vendor/jquery.jscrollpane.js', n: 'jscrollpane_js', j:1});
-    jsl.push({f:'js/jscrollpane.utils.js', n: 'jscrollpane_utils_js', j: 1});
-    jsl.push({f:'js/jquery.misc.js', n: 'jquerymisc_js', j:1});
-    jsl.push({f:'js/vendor/megaLogger.js', n: 'megaLogger_js', j:1});
-    jsl.push({f:'js/vendor/jquery.fullscreen.js', n: 'jquery_fullscreen', j:1, w:10});
+    jsl.push({f:'webclient/sjcl.js', n: 'sjcl_js', j:1});
+    jsl.push({f:'webclient/nodedec.js', n: 'nodedec_js', j:1});
+    jsl.push({f:'webclient/js/vendor/jquery.js', n: 'jquery', j:1, w:10});
+    jsl.push({f:'webclient/js/vendor/jquery-ui.js', n: 'jqueryui_js', j:1, w:10});
+    jsl.push({f:'webclient/js/vendor/jquery.mousewheel.js', n: 'jquerymouse_js', j:1});
+    jsl.push({f:'webclient/js/vendor/jquery.jscrollpane.js', n: 'jscrollpane_js', j:1});
+    jsl.push({f:'webclient/js/jscrollpane.utils.js', n: 'jscrollpane_utils_js', j: 1});
+    jsl.push({f:'webclient/js/jquery.misc.js', n: 'jquerymisc_js', j:1});
+    jsl.push({f:'webclient/js/vendor/megaLogger.js', n: 'megaLogger_js', j:1});
+    jsl.push({f:'webclient/js/vendor/jquery.fullscreen.js', n: 'jquery_fullscreen', j:1, w:10});
 
-    jsl.push({f:'js/utils/polyfills.js', n: 'js_utils_polyfills_js', j: 1});
-    jsl.push({f:'js/utils/browser.js', n: 'js_utils_browser_js', j: 1});
-    jsl.push({f:'js/utils/clipboard.js', n: 'js_utils_clipboard_js', j: 1});
-    jsl.push({f:'js/utils/conv.js', n: 'js_utils_conv_js', j: 1});
-    jsl.push({f:'js/utils/crypt.js', n: 'js_utils_crypt_js', j: 1});
-    jsl.push({f:'js/utils/debug.js', n: 'js_utils_debug_js', j: 1});
-    jsl.push({f:'js/utils/dom.js', n: 'js_utils_dom_js', j: 1});
-    jsl.push({f:'js/utils/events.js', n: 'js_utils_events_js', j: 1});
-    jsl.push({f:'js/utils/locale.js', n: 'js_utils_locale_js', j: 1});
-    jsl.push({f:'js/utils/media.js', n: 'js_utils_pictools_js', j: 1});
-    jsl.push({f:'js/utils/network.js', n: 'js_utils_network_js', j: 1});
-    jsl.push({f:'js/utils/splitter.js', n: 'js_utils_splitter_js', j: 1});
-    jsl.push({f:'js/utils/stringcrypt.js', n: 'js_utils_stringcrypt_js', j: 1});
-    jsl.push({f:'js/utils/timers.js', n: 'js_utils_timers_js', j: 1});
-    jsl.push({f:'js/utils/watchdog.js', n: 'js_utils_watchdog_js', j: 1});
-    jsl.push({f:'js/utils/workers.js', n: 'js_utils_workers_js', j: 1});
-    jsl.push({f:'js/utils/trans.js', n: 'js_utils_trans_js', j: 1});
+    jsl.push({f:'webclient/js/utils/polyfills.js', n: 'js_utils_polyfills_js', j: 1});
+    jsl.push({f:'webclient/js/utils/browser.js', n: 'js_utils_browser_js', j: 1});
+    jsl.push({f:'webclient/js/utils/clipboard.js', n: 'js_utils_clipboard_js', j: 1});
+    jsl.push({f:'webclient/js/utils/conv.js', n: 'js_utils_conv_js', j: 1});
+    jsl.push({f:'webclient/js/utils/crypt.js', n: 'js_utils_crypt_js', j: 1});
+    jsl.push({f:'webclient/js/utils/debug.js', n: 'js_utils_debug_js', j: 1});
+    jsl.push({f:'webclient/js/utils/dom.js', n: 'js_utils_dom_js', j: 1});
+    jsl.push({f:'webclient/js/utils/events.js', n: 'js_utils_events_js', j: 1});
+    jsl.push({f:'webclient/js/utils/locale.js', n: 'js_utils_locale_js', j: 1});
+    jsl.push({f:'webclient/js/utils/media.js', n: 'js_utils_pictools_js', j: 1});
+    jsl.push({f:'webclient/js/utils/network.js', n: 'js_utils_network_js', j: 1});
+    jsl.push({f:'webclient/js/utils/splitter.js', n: 'js_utils_splitter_js', j: 1});
+    jsl.push({f:'webclient/js/utils/stringcrypt.js', n: 'js_utils_stringcrypt_js', j: 1});
+    jsl.push({f:'webclient/js/utils/timers.js', n: 'js_utils_timers_js', j: 1});
+    jsl.push({f:'webclient/js/utils/watchdog.js', n: 'js_utils_watchdog_js', j: 1});
+    jsl.push({f:'webclient/js/utils/workers.js', n: 'js_utils_workers_js', j: 1});
+    jsl.push({f:'webclient/js/utils/trans.js', n: 'js_utils_trans_js', j: 1});
 
-    jsl.push({f:'js/functions.js', n: 'functions_js', j:1});
-    jsl.push({f:'js/crypto.js', n: 'crypto_js', j:1,w:5});
-    jsl.push({f:'js/account.js', n: 'user_js', j:1});
-    jsl.push({f:'js/security.js', n: 'security_js', j: 1, w: 5});
-    jsl.push({f:'js/two-factor-auth.js', n: 'two_factor_auth_js', j: 1, w: 5});
-    jsl.push({f:'js/attr.js', n: 'mega_attr_js', j:1});
-    jsl.push({f:'js/mega.js', n: 'mega_js', j:1,w:7});
-    jsl.push({f:'js/megaPromise.js', n: 'megapromise_js', j:1,w:5});
+    jsl.push({f:'webclient/js/functions.js', n: 'functions_js', j:1});
+    jsl.push({f:'webclient/js/crypto.js', n: 'crypto_js', j:1,w:5});
+    jsl.push({f:'webclient/js/account.js', n: 'user_js', j:1});
+    jsl.push({f:'webclient/js/security.js', n: 'security_js', j: 1, w: 5});
+    jsl.push({f:'webclient/js/two-factor-auth.js', n: 'two_factor_auth_js', j: 1, w: 5});
+    jsl.push({f:'webclient/js/attr.js', n: 'mega_attr_js', j:1});
+    jsl.push({f:'webclient/js/mega.js', n: 'mega_js', j:1,w:7});
+    jsl.push({f:'webclient/js/megaPromise.js', n: 'megapromise_js', j:1,w:5});
 
-    jsl.push({f:'js/mDB.js', n: 'mDB_js', j:1});
-    jsl.push({f:'js/mouse.js', n: 'mouse_js', j:1});
-    jsl.push({f:'js/datastructs.js', n: 'datastructs_js', j:1});
-    jsl.push({f:'js/idbkvstorage.js', n: 'idbkvstorage_js', j: 1, w: 5});
-    jsl.push({f:'js/sharedlocalkvstorage.js', n: 'sharedlocalkvstorage_js', j: 1, w: 5});
+    jsl.push({f:'webclient/js/mDB.js', n: 'mDB_js', j:1});
+    jsl.push({f:'webclient/js/mouse.js', n: 'mouse_js', j:1});
+    jsl.push({f:'webclient/js/datastructs.js', n: 'datastructs_js', j:1});
+    jsl.push({f:'webclient/js/idbkvstorage.js', n: 'idbkvstorage_js', j: 1, w: 5});
+    jsl.push({f:'webclient/js/sharedlocalkvstorage.js', n: 'sharedlocalkvstorage_js', j: 1, w: 5});
 
-    jsl.push({f:'js/tlvstore.js', n: 'tlvstore_js', j:1});
-    jsl.push({f:'js/vendor/jsbn.js', n: 'jsbn_js', j:1, w:2});
-    jsl.push({f:'js/vendor/jsbn2.js', n: 'jsbn2_js', j:1, w:2});
-    jsl.push({f:'js/vendor/nacl-fast.js', n: 'nacl_js', j:1,w:7});
-    jsl.push({f:'js/vendor/dexie.js', n: 'dexie_js', j:1,w:5});
+    jsl.push({f:'webclient/js/tlvstore.js', n: 'tlvstore_js', j:1});
+    jsl.push({f:'webclient/js/vendor/jsbn.js', n: 'jsbn_js', j:1, w:2});
+    jsl.push({f:'webclient/js/vendor/jsbn2.js', n: 'jsbn2_js', j:1, w:2});
+    jsl.push({f:'webclient/js/vendor/nacl-fast.js', n: 'nacl_js', j:1,w:7});
+    jsl.push({f:'webclient/js/vendor/dexie.js', n: 'dexie_js', j:1,w:5});
 
-    jsl.push({f:'js/authring.js', n: 'authring_js', j:1});
-    jsl.push({f:'html/js/login.js', n: 'login_js', j:1});
-    jsl.push({f:'js/ui/export.js', n: 'export_js', j:1,w:1});
-    jsl.push({f:'html/js/key.js', n: 'key_js', j:1});
+    jsl.push({f:'webclient/js/authring.js', n: 'authring_js', j:1});
+    jsl.push({f:'webclient/html/js/login.js', n: 'login_js', j:1});
+    jsl.push({f:'webclient/js/ui/export.js', n: 'export_js', j:1,w:1});
+    jsl.push({f:'webclient/html/js/key.js', n: 'key_js', j:1});
 
-    jsl.push({f:'js/useravatar.js', n: 'contact_avatar_js', j:1,w:3});
-    jsl.push({f:'css/avatars.css', n: 'avatars_css', j:2,w:5,c:1,d:1,cache:1});
-    jsl.push({f:'js/cms.js', n: 'cms_js', j:1});
+    jsl.push({f:'webclient/js/useravatar.js', n: 'contact_avatar_js', j:1,w:3});
+    jsl.push({f:'webclient/css/avatars.css', n: 'avatars_css', j:2,w:5,c:1,d:1,cache:1});
+    jsl.push({f:'webclient/js/cms.js', n: 'cms_js', j:1});
 
     // Common desktop and mobile, bottom pages
-    jsl.push({f:'css/bottom-pages.css', n: 'bottom-pages_css', j:2,w:5,c:1,d:1,cache:1});
-    jsl.push({f:'css/bottom-menu.css', n: 'bottom-menu_css', j:2,w:5,c:1,d:1,cache:1});
-    jsl.push({f:'css/business.css', n: 'business_css', j:2,w:5,c:1,d:1,cache:1});
-    jsl.push({f:'css/pro.css', n: 'pro_css', j:2,w:5,c:1,d:1,cache:1});
-    jsl.push({f:'css/startpage.css', n: 'startpage_css', j:2,w:5,c:1,d:1,cache:1});
-    jsl.push({f:'css/top-menu.css', n: 'top_menu_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
-    jsl.push({f:'css/icons.css', n: 'icons_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
-    jsl.push({f:'css/spinners.css', n: 'spinners_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
-    jsl.push({f:'css/retina-images.css', n: 'retina_images_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
-    jsl.push({f:'css/psa.css', n: 'psa_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
-    jsl.push({f:'html/start.html', n: 'start', j:0});
-    jsl.push({f:'html/js/start.js', n: 'start_js', j:1});
-    jsl.push({f:'html/js/bottompage.js', n: 'bottompage_js', j:1});
-    jsl.push({f:'html/pagesmenu.html', n: 'pagesmenu', j:0});
-    jsl.push({f:'html/bottom2.html', n: 'bottom2',j:0});
-    jsl.push({f:'html/megainfo.html', n: 'megainfo', j:0});
-    jsl.push({f:'js/thumbnail.js', n: 'thumbnail_js', j:1});
-    jsl.push({f:'js/vendor/exif.js', n: 'exif_js', j:1, w:3});
-    jsl.push({f:'js/vendor/smartcrop.js', n: 'smartcrop_js', j:1, w:7});
-    jsl.push({f:'js/vendor/jquery.qrcode.js', n: 'jqueryqrcode', j:1});
-    jsl.push({f:'js/vendor/qrcode.js', n: 'qrcode', j:1,w:2, g: 'vendor'});
-    jsl.push({f:'js/ui/publicServiceAnnouncement.js', n: 'psa_js', j:1,w:1});
+    jsl.push({f:'webclient/css/bottom-pages.css', n: 'bottom-pages_css', j:2,w:5,c:1,d:1,cache:1});
+    jsl.push({f:'webclient/css/bottom-menu.css', n: 'bottom-menu_css', j:2,w:5,c:1,d:1,cache:1});
+    jsl.push({f:'webclient/css/business.css', n: 'business_css', j:2,w:5,c:1,d:1,cache:1});
+    jsl.push({f:'webclient/css/pro.css', n: 'pro_css', j:2,w:5,c:1,d:1,cache:1});
+    jsl.push({f:'webclient/css/startpage.css', n: 'startpage_css', j:2,w:5,c:1,d:1,cache:1});
+    jsl.push({f:'webclient/css/top-menu.css', n: 'top_menu_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
+    jsl.push({f:'webclient/css/icons.css', n: 'icons_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
+    jsl.push({f:'webclient/css/spinners.css', n: 'spinners_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
+    jsl.push({f:'webclient/css/retina-images.css', n: 'retina_images_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
+    jsl.push({f:'webclient/css/psa.css', n: 'psa_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
+    jsl.push({f:'webclient/html/start.html', n: 'start', j:0});
+    jsl.push({f:'webclient/html/js/start.js', n: 'start_js', j:1});
+    jsl.push({f:'webclient/html/js/bottompage.js', n: 'bottompage_js', j:1});
+    jsl.push({f:'webclient/html/pagesmenu.html', n: 'pagesmenu', j:0});
+    jsl.push({f:'webclient/html/bottom2.html', n: 'bottom2',j:0});
+    jsl.push({f:'webclient/html/megainfo.html', n: 'megainfo', j:0});
+    jsl.push({f:'webclient/js/thumbnail.js', n: 'thumbnail_js', j:1});
+    jsl.push({f:'webclient/js/vendor/exif.js', n: 'exif_js', j:1, w:3});
+    jsl.push({f:'webclient/js/vendor/smartcrop.js', n: 'smartcrop_js', j:1, w:7});
+    jsl.push({f:'webclient/js/vendor/jquery.qrcode.js', n: 'jqueryqrcode', j:1});
+    jsl.push({f:'webclient/js/vendor/qrcode.js', n: 'qrcode', j:1,w:2, g: 'vendor'});
+    jsl.push({f:'webclient/js/ui/publicServiceAnnouncement.js', n: 'psa_js', j:1,w:1});
 
     if (!is_mobile) {
-        jsl.push({f:'js/filedrag.js', n: 'filedrag_js', j:1});
-        jsl.push({f:'js/vendor/verge.js', n: 'verge', j:1, w:5});
-        jsl.push({f:'js/jquery.tokeninput.js', n: 'jquerytokeninput_js', j:1});
-        jsl.push({f:'js/jquery.checkboxes.js', n: 'checkboxes_js', j:1});
+        jsl.push({f:'webclient/js/filedrag.js', n: 'filedrag_js', j:1});
+        jsl.push({f:'webclient/js/vendor/verge.js', n: 'verge', j:1, w:5});
+        jsl.push({f:'webclient/js/jquery.tokeninput.js', n: 'jquerytokeninput_js', j:1});
+        jsl.push({f:'webclient/js/jquery.checkboxes.js', n: 'checkboxes_js', j:1});
 
         // This is not used anymore, unless we process and store credit card details for renewals again
-        // jsl.push({f:'js/paycrypt.js', n: 'paycrypt_js', j:1 });
+        // jsl.push({f:'webclient/js/paycrypt.js', n: 'paycrypt_js', j:1 });
 
         // Desktop notifications
-        jsl.push({f:'js/vendor/notification.js', n: 'notification_js', j:1,w:7});
+        jsl.push({f:'webclient/js/vendor/notification.js', n: 'notification_js', j:1,w:7});
 
         // Other
-        jsl.push({f:'js/vendor/moment.js', n: 'moment_js', j:1,w:1});
-        jsl.push({f:'js/vendor/perfect-scrollbar.js', n: 'ps_js', j:1,w:1});
+        jsl.push({f:'webclient/js/vendor/moment.js', n: 'moment_js', j:1,w:1});
+        jsl.push({f:'webclient/js/vendor/perfect-scrollbar.js', n: 'ps_js', j:1,w:1});
 
         // Google Import Contacts
-        jsl.push({f:'js/gContacts.js', n: 'gcontacts_js', j:1,w:3});
+        jsl.push({f:'webclient/js/gContacts.js', n: 'gcontacts_js', j:1,w:3});
 
         // UI Elements
-        jsl.push({f:'js/ui/megaRender.js', n: 'megarender_js', j:1,w:1});
-        jsl.push({f:'js/ui/dialog.js', n: 'dialogui_js', j:1,w:1});
-        jsl.push({f:'js/ui/credentialsWarningDialog.js', n: 'creddialogui_js', j:1,w:1});
-        jsl.push({f:'js/ui/loginRequiredDialog.js', n: 'loginrequireddialog_js', j:1,w:1});
-        jsl.push({f:'js/ui/registerDialog.js', n: 'registerdialog_js', j:1,w:1});
-        jsl.push({f:'js/ui/keySignatureWarningDialog.js', n: 'mega_js', j:1,w:7});
-        jsl.push({f:'js/ui/feedbackDialog.js', n: 'feedbackdialogui_js', j:1,w:1});
-        jsl.push({f:'js/ui/languageDialog.js', n: 'mega_js', j:1,w:7});
-        jsl.push({f:'js/ui/alarm.js', n: 'alarm_js', j:1,w:1});
-        jsl.push({f:'js/ui/toast.js', n: 'toast_js', j:1,w:1});
-        jsl.push({f:'js/ui/transfers-popup.js', n: 'transfers_popup_js', j:1,w:1});
-        jsl.push({f:'js/ui/passwordReminderDialog.js', n: 'prd_js', j:1,w:1});
-        jsl.push({f:'js/ui/top-tooltip-login.js', n: 'top-tooltip-login', j:1});
-        jsl.push({f:'html/megadrop.html', n: 'megadrop', j:0});
-        jsl.push({f:'html/nomegadrop.html', n: 'nomegadrop', j:0});
-        jsl.push({f:'js/megadrop.js', n: 'megadrop_js', j:1});
+        jsl.push({f:'webclient/js/ui/megaRender.js', n: 'megarender_js', j:1,w:1});
+        jsl.push({f:'webclient/js/ui/dialog.js', n: 'dialogui_js', j:1,w:1});
+        jsl.push({f:'webclient/js/ui/credentialsWarningDialog.js', n: 'creddialogui_js', j:1,w:1});
+        jsl.push({f:'webclient/js/ui/loginRequiredDialog.js', n: 'loginrequireddialog_js', j:1,w:1});
+        jsl.push({f:'webclient/js/ui/registerDialog.js', n: 'registerdialog_js', j:1,w:1});
+        jsl.push({f:'webclient/js/ui/keySignatureWarningDialog.js', n: 'mega_js', j:1,w:7});
+        jsl.push({f:'webclient/js/ui/feedbackDialog.js', n: 'feedbackdialogui_js', j:1,w:1});
+        jsl.push({f:'webclient/js/ui/languageDialog.js', n: 'mega_js', j:1,w:7});
+        jsl.push({f:'webclient/js/ui/alarm.js', n: 'alarm_js', j:1,w:1});
+        jsl.push({f:'webclient/js/ui/toast.js', n: 'toast_js', j:1,w:1});
+        jsl.push({f:'webclient/js/ui/transfers-popup.js', n: 'transfers_popup_js', j:1,w:1});
+        jsl.push({f:'webclient/js/ui/passwordReminderDialog.js', n: 'prd_js', j:1,w:1});
+        jsl.push({f:'webclient/js/ui/top-tooltip-login.js', n: 'top-tooltip-login', j:1});
+        jsl.push({f:'webclient/html/megadrop.html', n: 'megadrop', j:0});
+        jsl.push({f:'webclient/html/nomegadrop.html', n: 'nomegadrop', j:0});
+        jsl.push({f:'webclient/js/megadrop.js', n: 'megadrop_js', j:1});
     } // !is_mobile
 
     if (is_chrome_firefox && parseInt(Services.appinfo.version) > 27) {
         is_chrome_firefox |= 4;
-        jsl.push({f:'js/transfers/meths/firefox-extension.js', n: 'dl_firefox', j: 1, w: 3});
+        jsl.push({f:'webclient/js/transfers/meths/firefox-extension.js', n: 'dl_firefox', j: 1, w: 3});
     }
 
     // Transfers
-    jsl.push({f:'js/transfers/xhr2.js', n: 'xhr_js', j:1});
-    jsl.push({f:'js/transfers/queue.js', n: 'queue', j:1,w:4});
-    jsl.push({f:'js/transfers/utils.js', n: 'tutils', j:1,w:4});
-    jsl.push({f:'js/transfers/meths/cache.js', n: 'dl_cache', j:1,w:3});
-    jsl.push({f:'js/transfers/meths/flash.js', n: 'dl_flash', j:1,w:3});
-    jsl.push({f:'js/transfers/meths/memory.js', n: 'dl_memory', j:1,w:3});
-    jsl.push({f:'js/transfers/meths/filesystem.js', n: 'dl_chrome', j:1,w:3});
-    // jsl.push({f:'js/transfers/meths/mediasource.js', n: 'dl_mediasource', j:1,w:3});
-    jsl.push({f:'js/transfers/downloader.js', n: 'dl_downloader', j:1,w:3});
-    jsl.push({f:'js/transfers/decrypter.js', n: 'dl_decrypter', j: 1, w: 3});
-    jsl.push({f:'js/transfers/download2.js', n: 'dl_js', j:1,w:3});
-    jsl.push({f:'js/transfers/meths.js', n: 'dl_meths', j: 1, w: 3});
-    jsl.push({f:'js/transfers/upload2.js', n: 'upload_js', j:1,w:2});
-    jsl.push({f:'js/transfers/reader.js', n: 'upload_reader_js', j: 1, w: 2});
-    jsl.push({f:'js/transfers/zip64.js', n: 'zip_js', j: 1});
-    jsl.push({f:'js/transfers/cloudraid.js', n: 'cloudraid_js', j: 1});
+    jsl.push({f:'webclient/js/transfers/xhr2.js', n: 'xhr_js', j:1});
+    jsl.push({f:'webclient/js/transfers/queue.js', n: 'queue', j:1,w:4});
+    jsl.push({f:'webclient/js/transfers/utils.js', n: 'tutils', j:1,w:4});
+    jsl.push({f:'webclient/js/transfers/meths/cache.js', n: 'dl_cache', j:1,w:3});
+    jsl.push({f:'webclient/js/transfers/meths/flash.js', n: 'dl_flash', j:1,w:3});
+    jsl.push({f:'webclient/js/transfers/meths/memory.js', n: 'dl_memory', j:1,w:3});
+    jsl.push({f:'webclient/js/transfers/meths/filesystem.js', n: 'dl_chrome', j:1,w:3});
+    // jsl.push({f:'webclient/js/transfers/meths/mediasource.js', n: 'dl_mediasource', j:1,w:3});
+    jsl.push({f:'webclient/js/transfers/downloader.js', n: 'dl_downloader', j:1,w:3});
+    jsl.push({f:'webclient/js/transfers/decrypter.js', n: 'dl_decrypter', j: 1, w: 3});
+    jsl.push({f:'webclient/js/transfers/download2.js', n: 'dl_js', j:1,w:3});
+    jsl.push({f:'webclient/js/transfers/meths.js', n: 'dl_meths', j: 1, w: 3});
+    jsl.push({f:'webclient/js/transfers/upload2.js', n: 'upload_js', j:1,w:2});
+    jsl.push({f:'webclient/js/transfers/reader.js', n: 'upload_reader_js', j: 1, w: 2});
+    jsl.push({f:'webclient/js/transfers/zip64.js', n: 'zip_js', j: 1});
+    jsl.push({f:'webclient/js/transfers/cloudraid.js', n: 'cloudraid_js', j: 1});
 
     // Everything else...
-    jsl.push({f:'index.js', n: 'index', j:1,w:4});
+    jsl.push({f:'webclient/index.js', n: 'index', j:1,w:4});
 
     if (is_mobile) {
-        jsl.push({f:'html/top-mobile.html', n: 'top-mobile', j:0});
+        jsl.push({f:'webclient/html/top-mobile.html', n: 'top-mobile', j:0});
     }
     else {
-        jsl.push({f:'html/top.html', n: 'top', j:0});
+        jsl.push({f:'webclient/html/top.html', n: 'top', j:0});
     }
 
-    jsl.push({f:'html/transferwidget.html', n: 'transferwidget', j:0});
-    jsl.push({f:'js/filetypes.js', n: 'filetypes_js', j:1});
-    jsl.push({f:'js/fm/removenode.js', n: 'fm_removenode_js', j: 1});
-    jsl.push({f:'js/fm/ufssizecache.js', n: 'ufssizecache_js', j:1});
+    jsl.push({f:'webclient/html/transferwidget.html', n: 'transferwidget', j:0});
+    jsl.push({f:'webclient/js/filetypes.js', n: 'filetypes_js', j:1});
+    jsl.push({f:'webclient/js/fm/removenode.js', n: 'fm_removenode_js', j: 1});
+    jsl.push({f:'webclient/js/fm/ufssizecache.js', n: 'ufssizecache_js', j:1});
 
     // Pro pages Step 1 (Pro plan) and Step 2 (Pro payment)
-    jsl.push({f:'html/proplan.html', n: 'proplan', j:0});
-    jsl.push({f:'html/propay.html', n: 'propay', j:0});
-    jsl.push({f:'html/js/pro.js', n: 'pro_js', j:1});
-    jsl.push({f:'html/js/proplan.js', n: 'proplan_js', j:1});
-    jsl.push({f:'html/js/propay.js', n: 'propay_js', j:1});
-    jsl.push({f:'html/js/propay-dialogs.js', n: 'propay_js', j:1});
-    jsl.push({f:'js/states-countries.js', n: 'states_countries_js', j:1});
+    jsl.push({f:'webclient/html/proplan.html', n: 'proplan', j:0});
+    jsl.push({f:'webclient/html/propay.html', n: 'propay', j:0});
+    jsl.push({f:'webclient/html/js/pro.js', n: 'pro_js', j:1});
+    jsl.push({f:'webclient/html/js/proplan.js', n: 'proplan_js', j:1});
+    jsl.push({f:'webclient/html/js/propay.js', n: 'propay_js', j:1});
+    jsl.push({f:'webclient/html/js/propay-dialogs.js', n: 'propay_js', j:1});
+    jsl.push({f:'webclient/js/states-countries.js', n: 'states_countries_js', j:1});
 
-    jsl.push({f:'js/ui/miniui.js', n: 'miniui_js', j:1});
-    jsl.push({f:'js/fm/achievements.js', n: 'achievements_js', j:1, w:5});
-    jsl.push({f:'js/fm/fileversioning.js', n: 'fm_fileversioning_js', j:1});
-    jsl.push({f:'js/ui/gdpr-download.js', n: 'gdpr_download', j:1});
+    jsl.push({f:'webclient/js/ui/miniui.js', n: 'miniui_js', j:1});
+    jsl.push({f:'webclient/js/fm/achievements.js', n: 'achievements_js', j:1, w:5});
+    jsl.push({f:'webclient/js/fm/fileversioning.js', n: 'fm_fileversioning_js', j:1});
+    jsl.push({f:'webclient/js/ui/gdpr-download.js', n: 'gdpr_download', j:1});
 
     if (!is_mobile) {
-        jsl.push({f:'css/style.css', n: 'style_css', j:2, w:30, c:1, d:1, cache:1});
-        jsl.push({f:'js/vendor/megalist.js', n: 'megalist_js', j:1, w:5});
-        jsl.push({f:'js/vendor/megaDynamicList.js', n: 'mega_dynamic_list_js', j:1, w:5});
-        jsl.push({f:'js/fm/quickfinder.js', n: 'fm_quickfinder_js', j:1, w:1});
-        jsl.push({f:'js/fm/selectionmanager.js', n: 'fm_selectionmanager_js', j:1, w:1});
-        jsl.push({f:'js/fm.js', n: 'fm_js', j:1, w:12});
-        jsl.push({f:'js/fm/dashboard.js', n: 'fmdashboard_js', j:1, w:5});
-        jsl.push({f:'js/fm/recents.js', n: 'fmrecents_js', j:1, w:5});
-        jsl.push({f:'js/fm/account.js', n: 'fm_account_js', j:1});
-        jsl.push({f:'js/fm/account-change-password.js', n: 'fm_account_change_password_js', j:1});
-        jsl.push({f:'js/fm/account-change-email.js', n: 'fm_account_change_email_js', j:1});
-        jsl.push({f:'js/fm/dialogs.js', n: 'fm_dialogs_js', j:1});
-        jsl.push({f:'js/fm/fileconflict.js', n: 'fm_fileconflict_js', j:1});
-        jsl.push({f:'js/fm/properties.js', n: 'fm_properties_js', j:1});
-        jsl.push({f:'js/ui/imagesViewer.js', n: 'imagesViewer_js', j:1});
-        jsl.push({f:'js/ui/miniui.js', n: 'miniui_js', j:1});
-        jsl.push({f:'js/notify.js', n: 'notify_js', j:1});
-        jsl.push({f:'js/popunda.js', n: 'popunda_js', j:1});
-        jsl.push({f:'js/vendor/avatar.js', n: 'avatar_js', j:1, w:3});
-        jsl.push({f:'js/vendor/int64.js', n: 'int64_js', j:1});
+        jsl.push({f:'webclient/css/style.css', n: 'style_css', j:2, w:30, c:1, d:1, cache:1});
+        jsl.push({f:'webclient/js/vendor/megalist.js', n: 'megalist_js', j:1, w:5});
+        jsl.push({f:'webclient/js/vendor/megaDynamicList.js', n: 'mega_dynamic_list_js', j:1, w:5});
+        jsl.push({f:'webclient/js/fm/quickfinder.js', n: 'fm_quickfinder_js', j:1, w:1});
+        jsl.push({f:'webclient/js/fm/selectionmanager.js', n: 'fm_selectionmanager_js', j:1, w:1});
+        jsl.push({f:'webclient/js/fm.js', n: 'fm_js', j:1, w:12});
+        jsl.push({f:'webclient/js/fm/dashboard.js', n: 'fmdashboard_js', j:1, w:5});
+        jsl.push({f:'webclient/js/fm/recents.js', n: 'fmrecents_js', j:1, w:5});
+        jsl.push({f:'webclient/js/fm/account.js', n: 'fm_account_js', j:1});
+        jsl.push({f:'webclient/js/fm/account-change-password.js', n: 'fm_account_change_password_js', j:1});
+        jsl.push({f:'webclient/js/fm/account-change-email.js', n: 'fm_account_change_email_js', j:1});
+        jsl.push({f:'webclient/js/fm/dialogs.js', n: 'fm_dialogs_js', j:1});
+        jsl.push({f:'webclient/js/fm/fileconflict.js', n: 'fm_fileconflict_js', j:1});
+        jsl.push({f:'webclient/js/fm/properties.js', n: 'fm_properties_js', j:1});
+        jsl.push({f:'webclient/js/ui/imagesViewer.js', n: 'imagesViewer_js', j:1});
+        jsl.push({f:'webclient/js/ui/miniui.js', n: 'miniui_js', j:1});
+        jsl.push({f:'webclient/js/notify.js', n: 'notify_js', j:1});
+        jsl.push({f:'webclient/js/popunda.js', n: 'popunda_js', j:1});
+        jsl.push({f:'webclient/js/vendor/avatar.js', n: 'avatar_js', j:1, w:3});
+        jsl.push({f:'webclient/js/vendor/int64.js', n: 'int64_js', j:1});
 
-        jsl.push({f:'js/ui/onboarding.js', n: 'onboarding_js', j:1,w:1});
-        jsl.push({f:'html/onboarding.html', n: 'onboarding', j:0,w:2});
-        jsl.push({f:'css/onboarding.css', n: 'onboarding_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/js/ui/onboarding.js', n: 'onboarding_js', j:1,w:1});
+        jsl.push({f:'webclient/html/onboarding.html', n: 'onboarding', j:0,w:2});
+        jsl.push({f:'webclient/css/onboarding.css', n: 'onboarding_css', j:2,w:5,c:1,d:1,cache:1});
 
-        jsl.push({f:'css/download.css', n: 'download_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/user-card.css', n: 'user_card_css', j:2, w:5, c:1, d:1, cache:1});
-        jsl.push({f:'css/fm-lists.css', n: 'fm_lists_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/account.css', n: 'account_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/buttons.css', n: 'buttons_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/dropdowns.css', n: 'dropdowns_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/labels-and-filters.css', n: 'labels-and-filters_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/dialogs.css', n: 'dialogs_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/media-viewer.css', n: 'media_viewer_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/popups.css', n: 'popups_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/toast.css', n: 'toast_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/data-blocks-view.css', n: 'data_blocks_view_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/help2.css', n: 'help_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/perfect-scrollbar.css', n: 'vendor_ps_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/recovery.css', n: 'recovery_css', j:2,w:5,c:1,d:1,cache:1});
-        jsl.push({f:'css/retina-images.css', n: 'retina_images_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
-        jsl.push({f:'css/media-print.css', n: 'media_print_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/download.css', n: 'download_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/user-card.css', n: 'user_card_css', j:2, w:5, c:1, d:1, cache:1});
+        jsl.push({f:'webclient/css/fm-lists.css', n: 'fm_lists_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/account.css', n: 'account_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/buttons.css', n: 'buttons_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/dropdowns.css', n: 'dropdowns_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/labels-and-filters.css', n: 'labels-and-filters_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/dialogs.css', n: 'dialogs_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/media-viewer.css', n: 'media_viewer_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/popups.css', n: 'popups_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/toast.css', n: 'toast_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/data-blocks-view.css', n: 'data_blocks_view_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/help2.css', n: 'help_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/perfect-scrollbar.css', n: 'vendor_ps_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/recovery.css', n: 'recovery_css', j:2,w:5,c:1,d:1,cache:1});
+        jsl.push({f:'webclient/css/retina-images.css', n: 'retina_images_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
+        jsl.push({f:'webclient/css/media-print.css', n: 'media_print_css', j:2,w:5,c:1,d:1,cache:1});
 
-        jsl.push({f:'html/key.html', n: 'key', j:0});
-        jsl.push({f:'html/login.html', n: 'login', j:0});
-        jsl.push({f:'html/fm.html', n: 'fm', j:0, w:3});
-        jsl.push({f:'html/top-login.html', n: 'top-login', j:0});
-        jsl.push({f:'html/dialogs.html', n: 'dialogs', j:0,w:2});
+        jsl.push({f:'webclient/html/key.html', n: 'key', j:0});
+        jsl.push({f:'webclient/html/login.html', n: 'login', j:0});
+        jsl.push({f:'webclient/html/fm.html', n: 'fm', j:0, w:3});
+        jsl.push({f:'webclient/html/top-login.html', n: 'top-login', j:0});
+        jsl.push({f:'webclient/html/dialogs.html', n: 'dialogs', j:0,w:2});
     } // !is_mobile
 
     // do not change the order...
-    jsl.push({f:'js/fm/filemanager.js', n: 'filemanager_js', j: 1, w: 5});
-    jsl.push({f:'js/fm/utils.js', n: 'fm_utils_js', j: 1});
-    jsl.push({f:'js/fm/megadata.js', n: 'fm_megadata_js', j: 1});
-    jsl.push({f:'js/fm/megadata/account.js', n: 'fm_megadata_account_js', j: 1});
-    jsl.push({f:'js/fm/megadata/avatars.js', n: 'fm_megadata_avatars_js', j: 1});
-    jsl.push({f:'js/fm/megadata/contacts.js', n: 'fm_megadata_contacts_js', j: 1});
-    jsl.push({f:'js/fm/megadata/filters.js', n: 'fm_megadata_filters_js', j: 1});
-    jsl.push({f:'js/fm/megadata/inbox.js', n: 'fm_megadata_inbox_js', j: 1});
-    jsl.push({f:'js/fm/megadata/menus.js', n: 'fm_megadata_menus_js', j: 1});
-    jsl.push({f:'js/fm/megadata/nodes.js', n: 'fm_megadata_nodes_js', j: 1});
-    jsl.push({f:'js/fm/megadata/openfolder.js', n: 'fm_megadata_openfolder_js', j: 1});
-    jsl.push({f:'js/fm/megadata/render.js', n: 'fm_megadata_render_js', j: 1});
-    jsl.push({f:'js/fm/megadata/reset.js', n: 'fm_megadata_reset_js', j: 1});
-    jsl.push({f:'js/fm/megadata/sort.js', n: 'fm_megadata_sort_js', j: 1});
-    jsl.push({f:'js/fm/megadata/transfers.js', n: 'fm_megadata_transfers_js', j: 1});
-    jsl.push({f:'js/fm/megadata/tree.js', n: 'fm_megadata_tree_js', j: 1});
-    jsl.push({f:'html/js/megasync.js', n: 'megasync_js', j: 1});
-    jsl.push({f:'js/fm/linkinfohelper.js', n: 'fm_linkinfohelper_js', j: 1});
+    jsl.push({f:'webclient/js/fm/filemanager.js', n: 'filemanager_js', j: 1, w: 5});
+    jsl.push({f:'webclient/js/fm/utils.js', n: 'fm_utils_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata.js', n: 'fm_megadata_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/account.js', n: 'fm_megadata_account_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/avatars.js', n: 'fm_megadata_avatars_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/contacts.js', n: 'fm_megadata_contacts_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/filters.js', n: 'fm_megadata_filters_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/inbox.js', n: 'fm_megadata_inbox_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/menus.js', n: 'fm_megadata_menus_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/nodes.js', n: 'fm_megadata_nodes_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/openfolder.js', n: 'fm_megadata_openfolder_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/render.js', n: 'fm_megadata_render_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/reset.js', n: 'fm_megadata_reset_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/sort.js', n: 'fm_megadata_sort_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/transfers.js', n: 'fm_megadata_transfers_js', j: 1});
+    jsl.push({f:'webclient/js/fm/megadata/tree.js', n: 'fm_megadata_tree_js', j: 1});
+    jsl.push({f:'webclient/html/js/megasync.js', n: 'megasync_js', j: 1});
+    jsl.push({f:'webclient/js/fm/linkinfohelper.js', n: 'fm_linkinfohelper_js', j: 1});
 
     if (localStorage.makeCache) {
-        jsl.push({f:'makecache.js', n: 'makecache', j:1});
+        jsl.push({f:'webclient/makecache.js', n: 'makecache', j:1});
     }
 
     if (localStorage.enableDevtools) {
-        jsl.push({f:'dont-deploy/transcripter/exporter.js', n: 'tse_js', j:1});
+        jsl.push({f:'webclient/dont-deploy/transcripter/exporter.js', n: 'tse_js', j:1});
     }
 
     if (lang === 'ar') {
-        jsl.push({f:'css/lang_ar.css', n: 'lang_arabic_css', j: 2, w: 30, c: 1, d: 1, m: 1});
+        jsl.push({f:'webclient/css/lang_ar.css', n: 'lang_arabic_css', j: 2, w: 30, c: 1, d: 1, m: 1});
     }
 
     if (lang === 'fa') {
-        jsl.push({f:'css/lang_ar.css', n: 'lang_farsi_css', j: 2, w: 30, c: 1, d: 1, m: 1});
+        jsl.push({f:'webclient/css/lang_ar.css', n: 'lang_farsi_css', j: 2, w: 30, c: 1, d: 1, m: 1});
     }
 
     if (lang === 'th') {
-        jsl.push({f:'css/lang_th.css', n: 'lang_thai_css', j: 2, w: 30, c: 1, d: 1, m: 1});
+        jsl.push({f:'webclient/css/lang_th.css', n: 'lang_thai_css', j: 2, w: 30, c: 1, d: 1, m: 1});
     }
 
     // Load files common to all mobile pages
     if (is_mobile) {
-        jsl.push({f:'css/mobile.css', n: 'mobile_css', j: 2, w: 30, c: 1, d: 1, m: 1});
-        jsl.push({f:'css/mobile-help.css', n: 'mobile_css', j: 2, w: 30, c: 1, d: 1, m: 1});
-        jsl.push({f:'css/toast.css', n: 'toast_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
-        jsl.push({f:'html/mobile.html', n: 'mobile', j: 0, w: 1});
-        jsl.push({f:'js/vendor/jquery.mobile.js', n: 'jquery_mobile_js', j: 1, w: 5});
-        jsl.push({f:'js/mobile/mobile.js', n: 'mobile_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.account.js', n: 'mobile_account_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.account.cancel.js', n: 'mobile_account_cancel_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.account.history.js', n: 'mobile_account_history_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.account.change-password.js', n: 'mobile_account_change_pass_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.achieve.js', n: 'mobile_achieve_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.achieve.how-it-works.js', n: 'mobile_achieve_how_it_works_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.achieve.invites.js', n: 'mobile_achieve_invites_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.achieve.referrals.js', n: 'mobile_achieve_referrals_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.backup.js', n: 'mobile_backup_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.cloud.js', n: 'mobile_cloud_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.cloud.action-bar.js', n: 'mobile_cloud_action_bar_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.cloud.context-menu.js', n: 'mobile_cloud_context_menu_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.create-folder-overlay.js', n: 'mobile_create_folder_overlay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.decryption-key-overlay.js', n: 'mobile_mobile_dec_key_overlay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.decryption-password-overlay.js', n: 'mobile_dec_pass_overlay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.delete-overlay.js', n: 'mobile_delete_overlay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.download-overlay.js', n: 'mobile_download_overlay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.language-menu.js', n: 'mobile_language_menu_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.link-overlay.js', n: 'mobile_link_overlay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.message-overlay.js', n: 'mobile_message_overlay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.not-found-overlay.js', n: 'mobile_not_found_overlay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.pro-signup-prompt.js', n: 'mobile_pro_signup_prompt_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.propay.js', n: 'mobile_propay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.recovery.js', n: 'mobile_rec_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.recovery.send-email.js', n: 'mobile_rec_send_email_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.recovery.from-email-link.js', n: 'mobile_rec_from_email_link_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.recovery.enter-key.js', n: 'mobile_rec_enter_key_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.recovery.change-password.js', n: 'mobile_rec_change_password_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.register.js', n: 'mobile_register_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.signin.js', n: 'mobile_signin_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.slideshow.js', n: 'mobile_slideshow_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.support.js', n: 'mobile_support_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.terms.js', n: 'mobile_terms_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.upload-overlay.js', n: 'mobile_upload_overlay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.megadrop.js', n: 'mobile_megadrop_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.contact-link.js', n: 'mobile_contactlink_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.twofactor.js', n: 'mobile_twofactor_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.twofactor.intro.js', n: 'mobile_twofactor_info_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.twofactor.setup.js', n: 'mobile_twofactor_setup_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.twofactor.verify-setup.js', n: 'mobile_twofactor_verify_setup_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.twofactor.enabled.js', n: 'mobile_twofactor_enabled_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.twofactor.verify-disable.js', n: 'mobile_twofactor_verify_disable_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.twofactor.disabled.js', n: 'mobile_twofactor_disabled_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.twofactor.verify-login.js', n: 'mobile_twofactor_verify_login_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.twofactor.verify-action.js', n: 'mobile_twofactor_verify_action_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.titlemenu.js', n: 'mobile_titlemenu_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.rubbish-bin-empty-overlay.js', n: 'mobile_rubbish_bin_empty_overlay_js', j: 1, w: 1});
-        jsl.push({f:'js/mobile/mobile.rubbishbin.js', n: 'mobile_rubbishbin_js', j: 1, w: 1});
-        jsl.push({f:'js/fm/fileconflict.js', n: 'fileconflict_js', j:1});
-        jsl.push({f:'js/mobile/mobile.alertbanner.js', n: 'mobile_alert_banner', j: 1 });
-        jsl.push({f:'js/mobile/mobile.conflict-resolution-overlay.js', n: 'mobile_conflict_resolution_overlay_js', j: 1 });
-        jsl.push({f:'js/mobile/mobile.over-storage-quota-overlay.js', n: 'mobile_over_storage_quota_overlay_js', j: 1 });
+        jsl.push({f:'webclient/css/mobile.css', n: 'mobile_css', j: 2, w: 30, c: 1, d: 1, m: 1});
+        jsl.push({f:'webclient/css/mobile-help.css', n: 'mobile_css', j: 2, w: 30, c: 1, d: 1, m: 1});
+        jsl.push({f:'webclient/css/toast.css', n: 'toast_css', j: 2, w: 5, c: 1, d: 1, cache: 1});
+        jsl.push({f:'webclient/html/mobile.html', n: 'mobile', j: 0, w: 1});
+        jsl.push({f:'webclient/js/vendor/jquery.mobile.js', n: 'jquery_mobile_js', j: 1, w: 5});
+        jsl.push({f:'webclient/js/mobile/mobile.js', n: 'mobile_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.account.js', n: 'mobile_account_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.account.cancel.js', n: 'mobile_account_cancel_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.account.history.js', n: 'mobile_account_history_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.account.change-password.js', n: 'mobile_account_change_pass_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.achieve.js', n: 'mobile_achieve_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.achieve.how-it-works.js', n: 'mobile_achieve_how_it_works_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.achieve.invites.js', n: 'mobile_achieve_invites_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.achieve.referrals.js', n: 'mobile_achieve_referrals_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.backup.js', n: 'mobile_backup_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.cloud.js', n: 'mobile_cloud_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.cloud.action-bar.js', n: 'mobile_cloud_action_bar_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.cloud.context-menu.js', n: 'mobile_cloud_context_menu_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.create-folder-overlay.js', n: 'mobile_create_folder_overlay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.decryption-key-overlay.js', n: 'mobile_mobile_dec_key_overlay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.decryption-password-overlay.js', n: 'mobile_dec_pass_overlay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.delete-overlay.js', n: 'mobile_delete_overlay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.download-overlay.js', n: 'mobile_download_overlay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.language-menu.js', n: 'mobile_language_menu_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.link-overlay.js', n: 'mobile_link_overlay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.message-overlay.js', n: 'mobile_message_overlay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.not-found-overlay.js', n: 'mobile_not_found_overlay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.pro-signup-prompt.js', n: 'mobile_pro_signup_prompt_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.propay.js', n: 'mobile_propay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.recovery.js', n: 'mobile_rec_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.recovery.send-email.js', n: 'mobile_rec_send_email_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.recovery.from-email-link.js', n: 'mobile_rec_from_email_link_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.recovery.enter-key.js', n: 'mobile_rec_enter_key_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.recovery.change-password.js', n: 'mobile_rec_change_password_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.register.js', n: 'mobile_register_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.signin.js', n: 'mobile_signin_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.slideshow.js', n: 'mobile_slideshow_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.support.js', n: 'mobile_support_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.terms.js', n: 'mobile_terms_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.upload-overlay.js', n: 'mobile_upload_overlay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.megadrop.js', n: 'mobile_megadrop_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.contact-link.js', n: 'mobile_contactlink_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.twofactor.js', n: 'mobile_twofactor_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.twofactor.intro.js', n: 'mobile_twofactor_info_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.twofactor.setup.js', n: 'mobile_twofactor_setup_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.twofactor.verify-setup.js', n: 'mobile_twofactor_verify_setup_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.twofactor.enabled.js', n: 'mobile_twofactor_enabled_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.twofactor.verify-disable.js', n: 'mobile_twofactor_verify_disable_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.twofactor.disabled.js', n: 'mobile_twofactor_disabled_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.twofactor.verify-login.js', n: 'mobile_twofactor_verify_login_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.twofactor.verify-action.js', n: 'mobile_twofactor_verify_action_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.titlemenu.js', n: 'mobile_titlemenu_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.rubbish-bin-empty-overlay.js', n: 'mobile_rubbish_bin_empty_overlay_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/mobile/mobile.rubbishbin.js', n: 'mobile_rubbishbin_js', j: 1, w: 1});
+        jsl.push({f:'webclient/js/fm/fileconflict.js', n: 'fileconflict_js', j:1});
+        jsl.push({f:'webclient/js/mobile/mobile.alertbanner.js', n: 'mobile_alert_banner', j: 1 });
+        jsl.push({f:'webclient/js/mobile/mobile.conflict-resolution-overlay.js', n: 'mobile_conflict_resolution_overlay_js', j: 1 });
+        jsl.push({f:'webclient/js/mobile/mobile.over-storage-quota-overlay.js', n: 'mobile_over_storage_quota_overlay_js', j: 1 });
     }
 
     // We need to keep a consistent order in loaded resources, so that if users
@@ -2186,61 +2186,61 @@ else if (!b_u) {
 
     if (is_embed) {
         jsl = [{f: langFilepath, n: 'lang', j: 3}];
-        jsl.push({f:'sjcl.js', n: 'sjcl_js', j: 1});
-        jsl.push({f:'nodedec.js', n: 'nodedec_js', j: 1});
-        jsl.push({f:'js/vendor/jquery.js', n: 'jquery', j: 1, w: 10});
-        jsl.push({f:'js/vendor/jquery.fullscreen.js', n: 'jquery_fullscreen', j:1, w:10});
-        jsl.push({f:'js/jquery.misc.js', n: 'jquerymisc_js', j: 1});
-        jsl.push({f:'html/js/embedplayer.js', n: 'embedplayer_js', j: 1, w: 4});
+        jsl.push({f:'webclient/sjcl.js', n: 'sjcl_js', j: 1});
+        jsl.push({f:'webclient/nodedec.js', n: 'nodedec_js', j: 1});
+        jsl.push({f:'webclient/js/vendor/jquery.js', n: 'jquery', j: 1, w: 10});
+        jsl.push({f:'webclient/js/vendor/jquery.fullscreen.js', n: 'jquery_fullscreen', j:1, w:10});
+        jsl.push({f:'webclient/js/jquery.misc.js', n: 'jquerymisc_js', j: 1});
+        jsl.push({f:'webclient/html/js/embedplayer.js', n: 'embedplayer_js', j: 1, w: 4});
 
-        jsl.push({f:'js/utils/polyfills.js', n: 'js_utils_polyfills_js', j: 1});
-        jsl.push({f:'js/utils/browser.js', n: 'js_utils_browser_js', j: 1});
-        jsl.push({f:'js/utils/clipboard.js', n: 'js_utils_clipboard_js', j: 1});
-        jsl.push({f:'js/utils/conv.js', n: 'js_utils_conv_js', j: 1});
-        jsl.push({f:'js/utils/dom.js', n: 'js_utils_dom_js', j: 1});
-        jsl.push({f:'js/utils/events.js', n: 'js_utils_events_js', j: 1});
-        jsl.push({f:'js/utils/locale.js', n: 'js_utils_locale_js', j: 1});
-        jsl.push({f:'js/utils/media.js', n: 'js_utils_pictools_js', j: 1});
-        jsl.push({f:'js/utils/network.js', n: 'js_utils_network_js', j: 1});
-        jsl.push({f:'js/utils/timers.js', n: 'js_utils_timers_js', j: 1});
-        jsl.push({f:'js/utils/watchdog.js', n: 'js_utils_watchdog_js', j: 1});
-        jsl.push({f:'js/utils/workers.js', n: 'js_utils_workers_js', j: 1});
+        jsl.push({f:'webclient/js/utils/polyfills.js', n: 'js_utils_polyfills_js', j: 1});
+        jsl.push({f:'webclient/js/utils/browser.js', n: 'js_utils_browser_js', j: 1});
+        jsl.push({f:'webclient/js/utils/clipboard.js', n: 'js_utils_clipboard_js', j: 1});
+        jsl.push({f:'webclient/js/utils/conv.js', n: 'js_utils_conv_js', j: 1});
+        jsl.push({f:'webclient/js/utils/dom.js', n: 'js_utils_dom_js', j: 1});
+        jsl.push({f:'webclient/js/utils/events.js', n: 'js_utils_events_js', j: 1});
+        jsl.push({f:'webclient/js/utils/locale.js', n: 'js_utils_locale_js', j: 1});
+        jsl.push({f:'webclient/js/utils/media.js', n: 'js_utils_pictools_js', j: 1});
+        jsl.push({f:'webclient/js/utils/network.js', n: 'js_utils_network_js', j: 1});
+        jsl.push({f:'webclient/js/utils/timers.js', n: 'js_utils_timers_js', j: 1});
+        jsl.push({f:'webclient/js/utils/watchdog.js', n: 'js_utils_watchdog_js', j: 1});
+        jsl.push({f:'webclient/js/utils/workers.js', n: 'js_utils_workers_js', j: 1});
 
-        jsl.push({f:'js/crypto.js', n: 'crypto_js', j: 1, w: 5});
-        jsl.push({f:'js/account.js', n: 'user_js', j: 1});
+        jsl.push({f:'webclient/js/crypto.js', n: 'crypto_js', j: 1, w: 5});
+        jsl.push({f:'webclient/js/account.js', n: 'user_js', j: 1});
 
-        jsl.push({f:'js/transfers/queue.js', n: 'queue', j: 1, w: 4});
-        jsl.push({f:'js/transfers/decrypter.js', n: 'dl_downloader', j: 1, w: 3});
-        jsl.push({f:'js/vendor/videostream.js', n: 'videostream', j: 1, w: 3});
-        jsl.push({f:'js/transfers/cloudraid.js', n: 'cloudraid_js', j: 1});
+        jsl.push({f:'webclient/js/transfers/queue.js', n: 'queue', j: 1, w: 4});
+        jsl.push({f:'webclient/js/transfers/decrypter.js', n: 'dl_downloader', j: 1, w: 3});
+        jsl.push({f:'webclient/js/vendor/videostream.js', n: 'videostream', j: 1, w: 3});
+        jsl.push({f:'webclient/js/transfers/cloudraid.js', n: 'cloudraid_js', j: 1});
 
-        jsl.push({f:'html/embedplayer.html', n: 'index', j: 0});
-        jsl.push({f:'css/embedplayer.css', n: 'embedplayer_css', j: 2, w: 5});
+        jsl.push({f:'webclient/html/embedplayer.html', n: 'index', j: 0});
+        jsl.push({f:'webclient/css/embedplayer.css', n: 'embedplayer_css', j: 2, w: 5});
     }
 
     if (is_drop) {
         u_checked = true;
         jsl = [{f: langFilepath, n: 'lang', j: 3}];
-        jsl.push({f:'html/js/embeddrop.js', n: 'embeddrop_js', j: 1, w: 4});
-        jsl.push({f:'css/embeddrop.css', n: 'embeddrop_css', j: 2, w: 5});
+        jsl.push({f:'webclient/html/js/embeddrop.js', n: 'embeddrop_js', j: 1, w: 4});
+        jsl.push({f:'webclient/css/embeddrop.css', n: 'embeddrop_css', j: 2, w: 5});
     }
     else {
-        jsl.push({f:'js/jquery.protect.js', n: 'jqueryprotect_js', j: 1});
-        jsl.push({f:'js/vendor/asmcrypto.js', n: 'asmcrypto_js', j: 1, w: 5});
+        jsl.push({f:'webclient/js/jquery.protect.js', n: 'jqueryprotect_js', j: 1});
+        jsl.push({f:'webclient/js/vendor/asmcrypto.js', n: 'asmcrypto_js', j: 1, w: 5});
 
         if (typeof Number.isNaN !== 'function' || typeof Set === 'undefined' || !Object.assign) {
-            jsl.push({f:'js/vendor/es6-shim.js', n: 'es6shim_js', j: 1});
+            jsl.push({f:'webclient/js/vendor/es6-shim.js', n: 'es6shim_js', j: 1});
         }
     }
 
     // If the TextEncoder is not supported natively (IE, Edge) then load the polyfill
     if (typeof TextEncoder !== 'function') {
-        jsl.push({f:'js/vendor/encoding.js', n: 'encoding_js', j:1});
+        jsl.push({f:'webclient/js/vendor/encoding.js', n: 'encoding_js', j:1});
     }
 
     // only used on beta
     if (onBetaW) {
-        jsl.push({f:'js/betacrashes.js', n: 'betacrashes_js', j: 1});
+        jsl.push({f:'webclient/js/betacrashes.js', n: 'betacrashes_js', j: 1});
     }
 
     var jsl2 =
