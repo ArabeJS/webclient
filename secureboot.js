@@ -1852,7 +1852,7 @@ else if (!b_u) {
     // Get the language file path e.g. lang/en.json or 'lang/en_7a8e15911490...f1878e1eb3.json'
     var langFilepath = getLanguageFilePath(lang);
 
-    jsl.push({f:langFilepath, n: 'lang', j:3});
+    jsl.push({f:'webclient/'+langFilepath, n: 'lang', j:3});
     jsl.push({f:'webclient/sjcl.js', n: 'sjcl_js', j:1});
     jsl.push({f:'webclient/nodedec.js', n: 'nodedec_js', j:1});
     jsl.push({f:'webclient/js/vendor/jquery.js', n: 'jquery', j:1, w:10});
